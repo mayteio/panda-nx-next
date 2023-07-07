@@ -1,7 +1,5 @@
 name: CI
-on:
-  - push
-  - pull_request
+on: [pull_request]
 
 jobs:
   main:
@@ -17,6 +15,7 @@ jobs:
         name: Install pnpm
         with:
           run_install: false
+          version: 8
 
       - name: Get pnpm store directory
         id: pnpm-cache
