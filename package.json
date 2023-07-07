@@ -2,7 +2,9 @@
   "name": "nx-integrated-monorepo",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "prepare": "panda codegen"
+  },
   "private": true,
   "devDependencies": {
     "@babel/core": ">=7.0.0 <8.0.0",
