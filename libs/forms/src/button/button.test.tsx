@@ -5,7 +5,8 @@ import { default as meta, Primary } from './button.stories';
 
 describe('<Page />', () => {
   it('Should render', () => {
-    render(composeStory(Primary, meta));
+    const Story = composeStory(Primary, meta);
+    render(<Story />);
     expect(screen.getByText(/click me/i)).toBeTruthy();
   });
 });
