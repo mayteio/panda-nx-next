@@ -9,10 +9,20 @@
 
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
-    "nx serve my-app": {
+    "Run app": {
       "name": "nx serve my-app",
-      "command": "nx serve my-app",
-      "runAtStart": true
+      "command": "pnpm nx serve my-app",
+      "runAtStart": true,
+      "preview": {
+        "port": 4200
+      }
+    },
+    "Run storybook": {
+      "name": "nx storybook my-app",
+      "command": "pnpm nx storybook my-app",
+      "preview": {
+        "port": 4400
+      }
     }
   }
 }

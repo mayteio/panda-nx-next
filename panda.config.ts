@@ -23,6 +23,9 @@ export default defineConfig({
 
   jsxFramework: 'react',
 
+  outExtension: 'js',
+  clean: true,
+
   // The output directory for your css system
   outdir: 'libs/styled-system/src/__generated__',
 });
