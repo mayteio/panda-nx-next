@@ -1,4 +1,49 @@
 @layer reset, base, tokens, recipes, utilities;
-body {
-  margin: 18px;
+
+@font-face {
+  font-family: 'Recoleta';
+  font-weight: 900;
+  src: url('https://storage.googleapis.com/marketplace-app-assets/fonts/Recoleta-Bold.woff2')
+    format('woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Recoleta';
+  font-weight: 600;
+  src: url('https://storage.googleapis.com/marketplace-app-assets/fonts/Recoleta-Medium.woff2')
+    format('woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Recoleta';
+  font-weight: 400;
+  src: url('https://storage.googleapis.com/marketplace-app-assets/fonts/Recoleta-Regular.woff2')
+    format('woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  font-weight: 900;
+  src: url('https://storage.googleapis.com/marketplace-app-assets/fonts/ProximaNova-Bold.woff2')
+    format('woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  font-weight: 700;
+  src: url('https://storage.googleapis.com/marketplace-app-assets/fonts/ProximaNova-Semibold.woff2')
+    format('woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  font-weight: 400;
+  src: url('https://storage.googleapis.com/marketplace-app-assets/fonts/ProximaNova-Regular.woff2')
+    format('woff2');
+  font-display: swap;
+}
+
+:root {
+  --font-proxima-nova: 'Proxima Nova', serif;
+  --font-recoleta: 'Recoleta', sans-serif;
 }

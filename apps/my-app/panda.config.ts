@@ -1,5 +1,10 @@
 import { defineConfig } from '@pandacss/dev';
-import { tokens, recipes } from '@nx-integrated-monorepo/theme';
+import {
+  recipes,
+  semanticTokens,
+  tokens,
+  textStyles,
+} from '@nx-integrated-monorepo/theme';
 
 export default defineConfig({
   // Whether to use css reset
@@ -14,8 +19,10 @@ export default defineConfig({
   // Useful for theme customization
   theme: {
     extend: {
-      tokens,
       recipes,
+      textStyles,
+      semanticTokens,
+      tokens,
     },
   },
 
