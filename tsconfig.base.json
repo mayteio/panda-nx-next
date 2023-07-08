@@ -19,8 +19,6 @@
       "@nx-integrated-monorepo/styled-system": [
         "libs/styled-system/src/index.ts"
       ],
-      "@nx-integrated-monorepo/test": ["libs/test/src/index.ts"],
-      "@nx-integrated-monorepo/test/server": ["libs/test/src/server.ts"],
       "@nx-integrated-monorepo/theme": ["libs/theme/src/index.ts"]
     }
   },
