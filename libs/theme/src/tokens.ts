@@ -23,8 +23,8 @@ export const tokens = defineTokens({
     brand: { value: 'linear-gradient(to right, #08AABF, #4DBC5D)' },
   },
   fonts: {
-    branded: { value: 'var(--font-recoleta), Menlo, monospace' },
-    default: { value: 'var(--font-proxima-nova), sans-serif' },
+    branded: { value: 'var(--font-recoleta)' },
+    body: { value: 'var(--font-proxima-nova)' },
   },
 });
 

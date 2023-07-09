@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@nx-integrated-monorepo/core": ["libs/core/src/index.ts"],
       "@nx-integrated-monorepo/forms": ["libs/forms/src/index.ts"],
       "@nx-integrated-monorepo/styled-system": [
         "libs/styled-system/src/index.ts"

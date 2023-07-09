@@ -10,6 +10,7 @@ export const button = defineRecipe({
     display: 'flex',
     alignItems: 'center',
     fontWeight: 600,
+    fontFamily: 'body',
     transitionProperty: 'background, border-color',
     transitionDuration: '150ms',
     _disabled: {
