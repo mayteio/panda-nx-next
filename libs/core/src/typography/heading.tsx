@@ -9,11 +9,13 @@ export type HeadingProps = JsxStyleProps &
 
 export const Heading = forwardRef<HTMLHeadingElement, HeadingProps>(
   function Heading({ size = 'h1', ...props }, ref) {
-    const El = styled(
+    const Element = styled(
       ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'].includes(size)
         ? (size as ElementType)
         : 'p'
     );
-    return <El ref={ref} className={css({ textStyle: size })} {...props} />;
+    return (
+      <Element ref={ref} className={css({ textStyle: size })} {...props} />
+    );
   }
 );
