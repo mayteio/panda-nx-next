@@ -21,8 +21,8 @@ export default defineConfig({
     extend: {
       recipes,
       textStyles,
-      semanticTokens,
       tokens,
+      semanticTokens,
     },
   },
 

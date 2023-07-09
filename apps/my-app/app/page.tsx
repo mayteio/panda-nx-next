@@ -1,15 +1,12 @@
-import { css } from '@nx-integrated-monorepo/styled-system';
-import { Button } from '@nx-integrated-monorepo/forms';
+import { Button, TextField } from '@nx-integrated-monorepo/forms';
+import { Box, Heading } from '@nx-integrated-monorepo/core';
 
 export default function Index() {
   return (
-    <>
-      <div
-        className={css({ fontSize: '2xl', fontWeight: 'bold', color: 'red' })}
-      >
-        Hello 🐼!
-      </div>
-      <Button mt="24px">Click me!</Button>
-    </>
+    <Box m={4} p={6} border="1px solid" borderColor="light" borderRadius="md">
+      <Heading mb="24px">Hello panda 🐼!</Heading>
+      <Button mb="24px">Click me!</Button>
+      <TextField label="Example text field" />
+    </Box>
   );
 }
