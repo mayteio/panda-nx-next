@@ -16,17 +16,22 @@ export const textField = defineRecipe({
       display: 'flex',
       alignItems: 'center',
     },
-    input: {
-      h: '100%',
-      w: '100%',
-      px: '16px',
-    },
     preview: {
       h: '100%',
       w: '100%',
       px: '16px',
       lineHeight: '54px',
       cursor: 'text',
+      borderRadius: '8px',
+    },
+    input: {
+      h: '100%',
+      w: '100%',
+      px: '16px',
+      borderRadius: '8px',
+      _focus: {
+        outline: '3px solid #12874B1A',
+      },
     },
   }),
   jsx: ['TextField'],

@@ -44,13 +44,13 @@ export const textStyles = defineTextStyles({
   },
   subtitle1: {
     value: {
-      fontFamily: 'default',
+      fontFamily: 'body',
       fontSize: '24px',
     },
   },
   subtitle2: {
     value: {
-      fontFamily: 'default',
+      fontFamily: 'body',
       fontSize: '20px',
     },
   },
