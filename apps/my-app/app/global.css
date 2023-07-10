@@ -1,5 +1,12 @@
 @layer reset, base, tokens, recipes, utilities;
 
+body,
+html {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 @font-face {
   font-family: 'Recoleta';
   font-weight: 900;

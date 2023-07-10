@@ -9,6 +9,7 @@ export const button = defineRecipe({
     position: 'relative',
     display: 'flex',
     alignItems: 'center',
+    justifyContent: 'center',
     fontWeight: 600,
     fontFamily: 'body',
     transitionProperty: 'background, border-color',

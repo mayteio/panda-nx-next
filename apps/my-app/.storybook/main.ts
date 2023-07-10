@@ -5,7 +5,17 @@ const config: StorybookConfig = {
     '../app/**/*.stories.@(ts|tsx)',
     '../../../libs/**/*.stories.@(ts|tsx)',
   ],
-  addons: ['@storybook/addon-essentials'],
+  addons: [
+    '@storybook/addon-essentials',
+    {
+      name: '@storybook/addon-styling',
+      options: {
+        postCss: {
+          implementation: require('postcss'),
+        },
+      },
+    },
+  ],
   framework: {
     name: '@storybook/nextjs',
     options: {},

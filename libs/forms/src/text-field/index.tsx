@@ -2,6 +2,7 @@
 
 import {
   Editable,
+  EditableProps,
   EditableArea,
   EditableInput,
   EditableLabel,
@@ -13,19 +14,14 @@ import { forwardRef } from 'react';
 
 export type TextFieldProps = JsxStyleProps & {
   label?: string;
-  placeholder?: string;
-};
+} & Omit<EditableProps, 'children'>;
 
 const StyledEditable = styled(Editable);
 
 export const TextField = forwardRef<HTMLInputElement, TextFieldProps>(
-  function TextField({ label, placeholder, ...props }, ref) {
+  function TextField({ label, ...props }, ref) {
     return (
-      <StyledEditable
-        className={textField()}
-        placeholder={placeholder}
-        {...props}
-      >
+      <StyledEditable className={textField()} {...props}>
         {label && <EditableLabel>{label}</EditableLabel>}
         <EditableArea>
           <EditablePreview />
