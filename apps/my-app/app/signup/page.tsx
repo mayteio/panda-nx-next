@@ -11,7 +11,12 @@ export default function DashboardHome() {
     <>
       <Flex justifyContent="space-between" alignItems="center" mb={24}>
         <Link href="/">
-          <Button visual="tertiary" color="medium" textDecoration="none" px={0}>
+          <Button
+            visual="tertiary"
+            color="text.medium"
+            textDecoration="none"
+            px={0}
+          >
             <Icon as={MdOutlineArrowBackIosNew} color="medium" />
             Back
           </Button>
