@@ -20,8 +20,8 @@ export function SidebarItem({ href, icon, children }: SidebarItemProps) {
       <Flex
         h="48px"
         alignItems="center"
-        bg={active ? '#EBEBEB' : undefined}
-        _hover={{ bg: !active ? 'reverse-heavy' : undefined }}
+        bg={active ? 'border.light' : undefined}
+        _hover={{ bg: !active ? 'border.reverse-heavy' : undefined }}
         transition="all 150ms linear"
         borderRadius="md"
         mb={2}
