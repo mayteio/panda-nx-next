@@ -1,23 +1,10 @@
 import { Icon, Logo } from '@nx-integrated-monorepo/data-display';
-import { Button, Select } from '@nx-integrated-monorepo/forms';
+import { Button } from '@nx-integrated-monorepo/forms';
 import { Flex } from '@nx-integrated-monorepo/styled-system';
 import { CreateAccountForm } from '@nx-integrated-monorepo/supplier-experience/user-authentication';
 import Link from 'next/link';
 import { MdOutlineArrowBackIosNew } from 'react-icons/md';
-
-const options = [
-  { label: 'English', value: 'en' },
-  { label: 'Portugese', value: 'pt' },
-  { label: 'Spanish', value: 'es' },
-];
-
-export function LanguageSwitcher() {
-  return (
-    <Flex alignItems="center" whiteSpace="nowrap">
-      <Select size="sm" label="Select language" options={options} />
-    </Flex>
-  );
-}
+import { LanguageSwitcher } from './components/language-switcher';
 
 export default function DashboardHome() {
   return (
