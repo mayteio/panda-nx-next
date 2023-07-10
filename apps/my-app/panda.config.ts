@@ -18,11 +18,11 @@ export default defineConfig({
 
   // Useful for theme customization
   theme: {
+    semanticTokens,
     extend: {
+      tokens,
       recipes,
       textStyles,
-      tokens,
-      semanticTokens,
     },
   },
 

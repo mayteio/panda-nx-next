@@ -13,7 +13,7 @@ export const Card = forwardRef<HTMLDivElement, FlexProps>(function Card(
       flexDir={{ base: 'column', md: 'row' }}
       bg="white"
       borderRadius="md"
-      border="1px solid token(colors.light)"
+      border="1px solid token(colors.border.light)"
       {...props}
     />
   );
@@ -22,12 +22,12 @@ export const Card = forwardRef<HTMLDivElement, FlexProps>(function Card(
 export function CardImage() {
   return (
     <Box
-      bg="peachpuff"
+      bg="green.lightest"
       w={{ base: '100%', md: '206px' }}
       h={{ base: '150px', md: '100%' }}
       borderTopLeftRadius="md"
       borderBottomLeftRadius={{ md: 'md' }}
-      borderTopRightRadius={{ base: 'md', md: undefined }}
+      borderTopRightRadius={{ base: 'md', md: 0 }}
     />
   );
 }

@@ -52,7 +52,7 @@ export const Heading = forwardRef<HTMLHeadingElement, HeadingProps>(
   function Heading({ size, ...props }, ref) {
     const Element = styled(
       ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'].includes(size ?? 'h1')
-        ? (size as ElementType)
+        ? (size as ElementType) ?? 'h1'
         : 'p'
     );
     return <Element ref={ref} className={heading({ size })} {...props} />;

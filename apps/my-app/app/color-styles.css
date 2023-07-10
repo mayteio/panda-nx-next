@@ -1,4 +1,3 @@
-/* Color styles */
 --light--text--heavy: rgba(34, 34, 34, 1);
 --light--text--medium: rgba(34, 34, 34, 0.6000000238418579);
 --light--text--light: rgba(34, 34, 34, 0.4000000059604645);
@@ -58,7 +57,8 @@
 --light--button--destructive-default: rgba(250, 99, 93, 1);
 --light--button--destructive-hover: rgba(250, 99, 93, 1);
 --light--button--destructive-disabled: rgba(250, 99, 93, 0.4000000059604645);
---dark--text--heavy: rgba(247, 247, 247, 1);
+
+/* --dark--text--heavy: rgba(247, 247, 247, 1);
 --dark--text--medium: rgba(247, 247, 247, 0.6399999856948853);
 --dark--text--light: rgba(247, 247, 247, 0.4000000059604645);
 --dark--text--reverse-heavy: rgba(34, 34, 34, 1);
@@ -69,8 +69,9 @@
 --dark--text--white-light: rgba(247, 247, 247, 0.4000000059604645);
 --dark--text--success: rgba(77, 188, 93, 1);
 --dark--text--warning: rgba(255, 155, 83, 1);
---dark--text--error: rgba(250, 99, 93, 1);
---dark--icon--heavy: rgba(247, 247, 247, 1);
+--dark--text--error: rgba(250, 99, 93, 1); */
+
+/* --dark--icon--heavy: rgba(247, 247, 247, 1);
 --dark--icon--medium: rgba(247, 247, 247, 0.6399999856948853);
 --dark--icon--light: rgba(247, 247, 247, 0.4000000059604645);
 --dark--icon--reverse-heavy: rgba(34, 34, 34, 1);
@@ -81,8 +82,8 @@
 --dark--icon--white-light: rgba(247, 247, 247, 0.4000000059604645);
 --dark--icon--success: rgba(77, 188, 93, 1);
 --dark--icon--warning: rgba(255, 155, 83, 1);
---dark--icon--error: rgba(250, 99, 93, 1);
---dark--border--heavy: rgba(247, 247, 247, 1);
+--dark--icon--error: rgba(250, 99, 93, 1); */
+/* --dark--border--heavy: rgba(247, 247, 247, 1);
 --dark--border--medium: rgba(247, 247, 247, 0.3199999928474426);
 --dark--border--light: rgba(247, 247, 247, 0.1599999964237213);
 --dark--border--reverse-heavy: rgba(34, 34, 34, 1);
@@ -90,7 +91,7 @@
 --dark--border--reverse-light: rgba(34, 34, 34, 0.10000000149011612);
 --dark--border--success: rgba(77, 188, 93, 1);
 --dark--border--warning: rgba(255, 155, 83, 1);
---dark--border--error: rgba(250, 99, 93, 1);
+--dark--border--error: rgba(250, 99, 93, 1); */
 --dark--background--level-0: rgba(15, 15, 15, 1);
 --dark--background--level-1: rgba(20, 20, 20, 1);
 --dark--background--level-2: rgba(24, 24, 24, 1);

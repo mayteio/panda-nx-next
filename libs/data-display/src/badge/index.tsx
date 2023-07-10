@@ -14,8 +14,8 @@ export const Badge = forwardRef<HTMLParagraphElement, TextProps>(function Badge(
       px={2}
       alignItems="center"
       borderRadius="80px"
-      bg="heavy"
-      color="reverse-heavy"
+      bg="black"
+      color="white"
       fontWeight="bold"
       {...props}
     />

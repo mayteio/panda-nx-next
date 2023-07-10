@@ -9,7 +9,7 @@ export const avatar = defineRecipe({
     root: {
       w: '48px',
       h: '48px',
-      bg: '#0E5832',
+      bg: 'green.darkest',
       borderRadius: 'md',
     },
     fallback: {
@@ -18,7 +18,7 @@ export const avatar = defineRecipe({
       justifyContent: 'center',
       w: '48px',
       h: '48px',
-      color: '#CBF3DF',
+      color: 'green.lightest',
       fontFamily: 'branded',
       fontSize: '2xl',
       fontWeight: 'bold',

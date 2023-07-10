@@ -52,11 +52,11 @@ export function Sidebar({ children }: PropsWithChildren) {
         h="100%"
         bg="white"
         overflow="hidden"
-        borderRight="1px solid token(colors.light)"
+        borderRight="1px solid token(colors.border.light)"
         transition="width 250ms token(easings.out)"
         _hover={{ width: '300px', '& .sidebar-item__text': { opacity: 1 } }}
       >
-        <Flex py={8} px={4} borderBottom="1px solid token(colors.light)">
+        <Flex py={8} px={4} borderBottom="1px solid token(colors.border.light)">
           <Avatar mr={4} />
           <Flex
             flexDir="column"
@@ -67,7 +67,7 @@ export function Sidebar({ children }: PropsWithChildren) {
             transition="opacity 150ms linear"
           >
             <Text fontWeight="bold">Supply Inc.</Text>
-            <Text size="body2" color="light">
+            <Text size="body2" color="text.medium">
               Project developer account
             </Text>
           </Flex>
