@@ -1,11 +1,6 @@
 import { defineTextStyles } from '@pandacss/dev';
 
 export const textStyles = defineTextStyles({
-  body: {
-    value: {
-      fontFamily: 'body, sans',
-    },
-  },
   h1: {
     value: {
       fontFamily: 'branded',
@@ -52,6 +47,31 @@ export const textStyles = defineTextStyles({
     value: {
       fontFamily: 'body',
       fontSize: '20px',
+    },
+  },
+  body1: {
+    value: {
+      fontFamily: 'body',
+      fontSize: '16px',
+    },
+  },
+  body2: {
+    value: {
+      fontFamily: 'body',
+      fontSize: '14px',
+    },
+  },
+  overline: {
+    value: {
+      fontFamily: 'body',
+      fontSize: '18px',
+      textTransform: 'uppercase',
+    },
+  },
+  caption: {
+    value: {
+      fontFamily: 'body',
+      fontSize: '12px',
     },
   },
 });

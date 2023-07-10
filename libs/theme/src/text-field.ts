@@ -6,11 +6,11 @@ const parts = defineParts(editableAnatomy.build());
 export const textField = defineRecipe({
   name: 'textField',
   base: parts({
-    root: { maxW: '320px', fontFamily: 'body' },
+    root: { w: '100%', fontFamily: 'body' },
     label: { fontSize: '14px' },
     area: {
       border: '1px solid',
-      borderColor: 'light',
+      borderColor: 'border.light',
       borderRadius: '8px',
       h: '56px',
       display: 'flex',
@@ -30,7 +30,7 @@ export const textField = defineRecipe({
       px: '16px',
       borderRadius: '8px',
       _focus: {
-        outline: '3px solid #12874B1A',
+        outline: '3px solid token(colors.state.active)',
       },
     },
   }),

@@ -16,9 +16,19 @@
     "baseUrl": ".",
     "paths": {
       "@nx-integrated-monorepo/core": ["libs/core/src/index.ts"],
+      "@nx-integrated-monorepo/data-display": [
+        "libs/data-display/src/index.ts"
+      ],
       "@nx-integrated-monorepo/forms": ["libs/forms/src/index.ts"],
+      "@nx-integrated-monorepo/navigation": ["libs/navigation/src/index.ts"],
       "@nx-integrated-monorepo/styled-system": [
         "libs/styled-system/src/index.ts"
+      ],
+      "@nx-integrated-monorepo/supplier-experience/project-dashboard": [
+        "libs/supplier-experience/project-dashboard/src/index.ts"
+      ],
+      "@nx-integrated-monorepo/supplier-experience/user-authentication": [
+        "libs/supplier-experience/user-authentication/src/index.ts"
       ],
       "@nx-integrated-monorepo/theme": ["libs/theme/src/index.ts"]
     }
