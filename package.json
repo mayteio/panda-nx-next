@@ -61,6 +61,7 @@
   "dependencies": {
     "@ark-ui/react": "^0.7.2",
     "@swc/helpers": "~0.5.0",
+    "imagekit-javascript": "^1.5.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-flag-kit": "^1.1.1",

@@ -6,7 +6,7 @@ const parts = defineParts(editableAnatomy.build());
 export const textField = defineRecipe({
   name: 'textField',
   base: parts({
-    root: { maxW: '320px', fontFamily: 'body' },
+    root: { w: '100%', fontFamily: 'body' },
     label: { fontSize: '14px' },
     area: {
       border: '1px solid',

@@ -11,6 +11,9 @@ dependencies:
   '@swc/helpers':
     specifier: ~0.5.0
     version: 0.5.1
+  imagekit-javascript:
+    specifier: ^1.5.5
+    version: 1.5.5
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -10131,6 +10134,10 @@ packages:
     dependencies:
       queue: 6.0.2
     dev: true
+
+  /imagekit-javascript@1.5.5:
+    resolution: {integrity: sha512-WnEq7zIiYx+bN1fUzLEqSD33xOCEhHpDmlo3SxQkXPiLBnnnLGhBZi583wNhBXP3RB/yQQEKOBeOelnZ7WVgPA==}
+    dev: false
 
   /import-fresh@3.3.0:
     resolution: {integrity: sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==}

@@ -58,7 +58,14 @@ export function Sidebar({ children }: PropsWithChildren) {
       >
         <Flex py={8} px={4} borderBottom="1px solid token(colors.light)">
           <Avatar mr={4} />
-          <Flex flexDir="column" w="330px" whiteSpace="nowrap">
+          <Flex
+            flexDir="column"
+            w="330px"
+            whiteSpace="nowrap"
+            className="sidebar-item__text"
+            opacity={0}
+            transition="opacity 150ms linear"
+          >
             <Text fontWeight="bold">Supply Inc.</Text>
             <Text size="body2" color="light">
               Project developer account
