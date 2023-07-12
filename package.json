@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "prepare": "panda codegen"
+    "prepare": "panda codegen --cwd=apps/my-app --config ../../libs/styled-system/panda.config.ts"
   },
   "private": true,
   "devDependencies": {
